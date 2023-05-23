@@ -1,0 +1,60 @@
+{
+  "components": [
+    {
+      "label": "Pack Cash USD",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1i4ln5i",
+        "columns": null
+      },
+      "id": "Field_09umajl",
+      "key": "money",
+      "description": "How much cash do you want to bring?",
+      "disabled": false,
+      "validate": {
+        "required": true,
+        "pattern": "^[1-9]\\d*$"
+      },
+      "properties": {}
+    },
+    {
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1ktd0m2",
+        "columns": null
+      },
+      "id": "Field_01dl7fx",
+      "key": "country",
+      "description": "Country you are going to ",
+      "validate": {
+        "required": true,
+        "pattern": "America|France"
+      }
+    },
+    {
+      "label": "Email Adress",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_09nengu",
+        "columns": null
+      },
+      "id": "Field_1axy71j",
+      "key": "emailAdress",
+      "description": "Your Email",
+      "validate": {
+        "required": true,
+        "validationType": "email"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "departureForm",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "schemaVersion": 8
+}
